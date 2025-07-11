@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>3D Scene Generator</title>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      background-color: #f4f4f4;
+    }
+    input, button {
+      font-size: 1rem;
+      padding: 0.5rem;
+      width: 400px;
+      margin-bottom: 1rem;
+    }
+    #response {
+      margin-top: 1rem;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎮 Generate Your 3D Scene</h1>
+  <input type="text" id="prompt" placeholder="Describe your scene (e.g., a castle on a mountain)" />
+  <br />
+  <button onclick="submitPrompt()">Generate Scene</button>
+  <div id="response"></div>
+</body>
+</html>
