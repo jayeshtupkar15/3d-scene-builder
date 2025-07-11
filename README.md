@@ -12,33 +12,6 @@ The system will:
 
 ---
 
-## ✨ Project Structure
-
-3d-scene-builder/
-│
-├── backend/ # Python Flask API
-│ ├── app.py # Main backend app
-│ ├── utils/ # Keyword extraction
-│ ├── sketchfab/ # Sketchfab model search + download
-│ └── generator/ # Unity script + scene JSON generator
-│
-├── frontend/ # Simple HTML/CSS/JS prompt UI
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-│
-├── output/ # Stores downloaded 3D models
-│
-├── .gitignore # Ignore files/folders (e.g. Unity project)
-├── requirements.txt # Python dependencies
-└── README.md # You're reading this 🙂
-
-yaml
-Copy
-Edit
-
----
-
 ## 🚀 How to Run It
 
 ### 1. 🔧 Setup Python Backend
